@@ -32,7 +32,7 @@ const Footer = () => {
             <div className="flex flex-col gap-5 items-center md:items-start">
               <h4 className="bold-18 whitespace-nowrap">Contact Us</h4>
               <div className="regular-14 flex flex-col gap-4 text-gray-30 text-center md:text-left">
-                <p>Email: <a href="hilinik@travels.com" className="text-primary">hilinik@travels.com</a></p>
+                <p>Email: <a href="hilink@travels.com" className="text-primary">hilink@travels.com</a></p>
                 <p>Phone: <a href="tel:+1234567890" className="text-primary">+1 234 567 890</a></p>
                 <p>Address: <span className="text-gray-40">Jakarta , Indonasia</span></p>
               </div>

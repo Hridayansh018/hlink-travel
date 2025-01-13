@@ -1,15 +1,14 @@
 import Image from "next/image"
 
 type ButtonProps = {
-    type: string;
+    type: "submit" | "reset" | "button";  // Corrected type for 'type' prop
     title: string;
     icon: string;
     variant: string;
-    full?:boolean;
+    full?: boolean;
 }
 
-
-const Button = ({type, title, icon, variant,full} : ButtonProps) => {
+const Button = ({ type, title, icon, variant, full }: ButtonProps) => {
   return (
     <button type={type} className={`flexCenter gap-3 rounded-full border ${variant} ${full && 'w-full'} cursor-pointer`} >
         {icon && <Image src={icon} alt={title} width={24} height={24} />}
@@ -17,5 +16,5 @@ const Button = ({type, title, icon, variant,full} : ButtonProps) => {
     </button>
   )
 }
- 
-export default Button
+
+export default Button;

@@ -3,7 +3,7 @@ import Image from "next/image"
 type ButtonProps = {
     type: "submit" | "reset" | "button";  // Corrected type for 'type' prop
     title: string;
-    icon: string;
+    icon?: string;
     variant: string;
     full?: boolean;
 }

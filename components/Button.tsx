@@ -4,7 +4,7 @@ type ButtonProps = {
     type: string;
     title: string;
     icon: string;
-    variant: 'btn_dark_green';
+    variant: string;
     full?:boolean;
 }
 

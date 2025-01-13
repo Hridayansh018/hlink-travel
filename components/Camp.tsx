@@ -68,7 +68,7 @@ const Camp = () => {
       <div className='flexEnd mt-10 px-6 lg:-mt-60 lg:mr-6'>
         <div className='bg-green-50 p-8 lg:max-w-[500px] relative w-full overflow-hidden rounded-3xl'>
           <h2 className='regular-24 md:regular-32 2xl:regular-63 capitalize text-white'>
-            <strong>Feeling Lost</strong>Ant Not Knowing The Way?
+            <strong>Feeling Lost</strong> And Not Knowing The Way?
           </h2>
           <p className='rehular-14 xl:regular-16 mt-5 text-white '>
             Starting from the mountains to the sea, we provide the best camping experience for you and your family, friends, or your loved ones, with the best quality and service, you will feel at home.
